@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A tourism based company that helps invidiuals book trips to exotic islands.">
+    <meta name="keywords" content="news, island, travel, tourism, exotic, private, vacation">
+    <title>Stan's Exotic Island Getaways</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+        /* CSS for the newspaper column */
+        .columnhead {color: black;}
+
+        .column {column-count: 3;
+                column-rule: 2px solid #ff0080;
+                column-gap: normal;}
+
+        span {font-weight: bold;}
+
+        /* CSS for book button */
+       .book {text-align:center;
+                display: block;
+                margin: 24px auto;
+               
+                width: max-content;
+                text-decoration: none;
+                color: black;
+                background-color: aqua;
+                font-weight: bold;
+                padding: 10px;
+                border-radius: 25px;
+                border: 5px outset yellow;
+               }
+
+        .book:hover {background-color: yellow;
+                    font-size: larger;}
+
+          /* Image table */
+          table.images {
+                    text-align: center;
+                    
+                    width: auto;
+                    color: #ff0080;
+                font-weight: bold;}
+
+           .images td {padding: 5px;}
+
+           caption {margin-bottom: 16px;}
+        
+            
+
+           .images img {max-width: 60%;
+                            height: auto;
+
+                            border: 5px outset #ff0080;
+                            box-shadow: 5px 5px 5px gray;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Stan's Exotic Island Getaways!
+        </h1>
+        <h2>
+           Join us for your next tropical island vacation.
+        </h2>
+        <hr class="hrheader">
+
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home Page</a></li>
+                <li class="placeholder"><a href="News.html">Latest News</a></li>
+                <li><a href="Testimonials.html">Read Testimonials</a></li>
+                <li><a href="About.html">Pricing</a></li>
+                <li><a href="Book.html">Book a Trip with Us!</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <main>
+        <section>
+            <h3>Latest Fun Travel Links
+            </h3>
+        <ul> 
+            <li><a href="https://en.wikipedia.org/wiki/Hawaii">Hawai'i Wikipedia</a></li>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Hawaii_(island)">Hawai'i - The Big Island</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Maui">Maui</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Oahu">O'ahu</a></li>
+            </ul>
+            <li><a href="https://www.expedia.com/Flights">Book a flight with Expedia</a></li>
+            <li><a href="https://travel.usnews.com/rankings/best-islands-in-the-world/">Island Travel Article - Best Choices</a></li>
+            <li><a href="https://www.travelweekly.com/Caribbean-Travel/Caribbean-readies-for-a-wave-of-reopenings">Travelling to the Caribbean 2021</a></li>
+        </ul>
+        </section>
+        
+        <article>
+            <h2>The Latest Press</h2>
+            <hr>
+            <p>The following article was published about our company in a local island newspaper! Please read their praise of us! </p>
+            <h3 class="columnhead">Stan's Exotic Island Getaways: a Review by the Island Express
+            </h3>
+            <p class="column">&nbsp Today we went and visited the company located in Florida, USA named "Stan's Exotic Island Vacations." We have heard a lot of people comment to us about this travel agency, and therefore we were excited to be able to meet and interact with the staff there.  We asked the co-owner, Max Smith a few questions regarding the company.<br>
+            Q: How long has this company been in operation?<br>
+            <span>A: We have been working really hard at developing Stan's Exotic Island Vacation Travel Agency for almost fifteen years now. It began with an idea between my brother, Stan, and I.  We both thought that it would be fun to travel and have adventures around the world, and then be able to guide people to these places and support ourselves as a travel agency.</span>
+            <br>
+            Q: It sounds like you have a lot of passion for your work. What is it about your company that makes you stand out from other travel agencies?<br>
+            <span>A: Sure. My brother and I focus mostly on tropical destinations, and in particular, islands.  We have loved travelling to these places ourselves and think that we could lend some experiential knowledge about where people should or should not go depending on the customer.</span><br>
+
+            Q: Our final question for you is, how can people get in touch with you in order to learn more about your products and services?<br>
+            <span>A: We have recenetly worked with a website publisher and we have a new website where people can get basic information and see images related to travel destinations.</span><br>
+            Thank you for your time!
+            <br><span>Likewise!</span></p>
+            
+
+
+        <!-- book a trip with us button -->
+            <a class="book" id="book" href="Book.html">Book a trip with us!</a>
+
+            <table class="images">
+                <caption> Enjoy the waves and the lifestyle in the most beautiful places on earth!</caption>
+                <tr>
+                    <td>
+                        <img src="assets/village.jpg" alt="Village near the island shore">
+                    </td>
+
+                     <td><img src="assets/wakeboardguy.jpg" alt="">
+                    </td>
+                    <td>
+                        <img src="assets/beach.jpg" alt="">
+                    </td>
+                    <tr>
+                        <td><img src="assets/flower.jpg" alt=""></td>
+                        <td><img src="assets/dive.jpg" alt=""></td>
+                        <td><img src="assets/parrot.jpg" alt=""></td>
+                    </tr>
+
+                    </tr>
+
+                
+            </table>
+
+            
+        
+        </article>
+       
+        
+    </main>
+
+    <footer>
+        <a class="top" href="#top">Back to top!</a>
+        <p class="pfooter">Call us at 1-248-999-9999 to discuss your travel needs.</p>
+    </footer>
+</body>
+</html>

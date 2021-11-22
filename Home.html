@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A tourism based company that helps invidiuals book trips to exotic islands.">
+    <meta name="keywords" content="island, travel, agency, tourism, exotic, private, vacation">
+    <title>Stan's Exotic Island Getaways</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Sets the home page nav link bg color to indicate which page user is on */
+         
+
+        span {font-style: italic;
+                    font-weight: bold;}
+        
+        .stan {color: #ff0080;
+                font-style: normal;}
+        
+        .top {padding: 15px;
+                display: inline-block;
+                background-color: aqua;
+                border-radius: 10px;
+                }
+        .top:hover {background-color: rgb(239, 239, 159);}
+        
+      .asidevideo {text-align: center;
+                    }
+      
+
+        .asidevideo h3 {color: #ff0080;
+                        font-style: oblique;
+                        }
+    /* CSS for book button */
+       
+
+        a {text-decoration: none;}
+
+        a:hover {text-decoration: underline;}
+            /* float right images */
+        .tropicalimages {float:right;
+                        list-style-type: none;
+                        margin: 15px;
+                        color: #ff0080;
+                        font-weight: bold;
+                        text-align: center;
+                        padding-left:  0;
+                        font-size: 20px;
+                        }
+
+        .tropicalimages img {width: 400px;
+                            max-width: 100%;
+                            height: auto;
+                            border: 5px outset #ff0080;
+                            box-shadow: 5px 5px 5px gray;
+                            margin: 20px 0px;}
+
+        .tropicalimages img:hover {opacity: .5;}
+                            
+        .tropicalimages::after {content: "";
+                                clear: both;
+                                display: block;}
+            
+
+            .book {text-align:center;
+        display: block;
+        margin: 0;
+        width: fit-content;
+        text-decoration: none;
+        color: black;
+        background-color: aqua;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 25px;
+        border: 5px outset yellow;
+       }
+            /* bottom image and caption */
+        #hawaii {display: inline-block;}
+
+        #hawaii img {border: 5px outset #ff0080;
+                            box-shadow: 5px 5px 5px gray;
+                            max-width: 400px;
+                            margin: 24px 0px 0px 0px;
+                        }
+        
+        #hawaii img:hover {opacity: .5;}
+        
+
+            figcaption {text-align: center;
+                        color: #ff0080;
+                        font-weight: bold;
+                        font-size: 20px;
+                        }
+                           
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="top">
+            Stan's Exotic Island Getaways!
+        </h1>
+        <h2>
+           Join us for your next tropical island vacation.
+        </h2>
+        <hr class="hrheader">
+
+        <nav>
+            <ul>
+                <li class="placeholder"><a href="Home.html" >Home Page</a></li>
+                <li><a href="News.html">Latest News</a></li>
+                <li><a href="Testimonials.html">Read Testimonials</a></li>
+                <li><a href="About.html">Pricing</a></li>
+                <li><a href="Book.html">Book a Trip with Us!</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Left hand links -->
+        <section>
+            <h3>Latest Fun Travel Links
+            </h3>
+        <ul> 
+            <li><a href="https://en.wikipedia.org/wiki/Hawaii">Hawai'i Wikipedia</a></li>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Hawaii_(island)">Hawai'i - The Big Island</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Maui">Maui</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Oahu">O'ahu</a></li>
+            </ul>
+            <li><a href="https://www.expedia.com/Flights">Book a flight with Expedia</a></li>
+            <li><a href="https://travel.usnews.com/rankings/best-islands-in-the-world/">Island Travel Article - Best Choices</a></li>
+            <li><a href="https://www.travelweekly.com/Caribbean-Travel/Caribbean-readies-for-a-wave-of-reopenings">Travelling to the Caribbean 2021</a></li>
+        </ul>
+        </section>
+        
+        <article>
+            <h2>Welcome to Stan's Exotic Island Getaway's Main Page!</h2>
+            <hr>
+            <p>Thank you for visiting our company website.  <a href="#book">Book Link here</a>, <a href="#videos">Check out these videos below.</a></p>
+            <p><span>Who are we?</span> At <span class="stan">Stan's Exotic Island Getaways</span>, we work with you in order to meet all your desired itinerary for your next island vacation.<br><br>
+            We are constantly striving improve and hone our customer satisfaction skills. We aim to be a high-caliber travel agency that serves dozens if not hundreds of island locations around the globe.  </p>
+            <!-- ol Img container -->
+            <ol class="tropicalimages">
+                <li>Choose your tropical destination today!</li>
+                <li>
+                    <a href="https://www.fourseasons.com/borabora/"><img src="assets/resort.jpg" title="Bora Bora" alt="This is a resort on a tropical island"></a></li>
+                <li>Bora Bora</li>
+                <li>
+                    <a href="https://travel.usnews.com/Seychelles/"><img src="assets/canoe.jpg" title="Seychelles islands" alt="canoe by the sea"></a>
+                </li>
+                <li>Seychelles</li>
+            </ol>
+            <p><span>When you work with us, you can expect the following:</span></p>
+
+        <!-- nested ordered list -->
+            <ol>
+                <li>High-level communication skills and flexbility from our <a href="About.html">team and staff.</a></li>
+                <li>Loads of knowledge regarding each of the islands geography and what to do and not do.
+                    <ol class="nestedol">
+                        <li>We have a lot of experience and can act as your tour guide for wherever you may choose to go.</li>
+                        <li>Many of our guides have lived on islands for many years.</li>
+                    </ol>
+                <li>Detailed maps of all your destinations if you so desire them</li>
+                <li>On-call staff should you find yourself in a difficult situation and need either car service or medical service.</li>
+            </ol>
+            <br>
+        <!-- book a trip with us button -->
+            <a class="book" id="book" href="Book.html">Book a trip with us!</a>
+            <!--Hawaii Image-->
+            <br><br>
+            <figure id="hawaii"><a href="https://portal.ehawaii.gov/"><img src="assets/hawaii.jpg" title="Hawaii" alt="Hawaii"></a>
+                <figcaption>Hawaii</figcaption>         
+            </figure>
+            </article>
+            
+           
+        
+        </article>
+        <aside class="asidevideo">
+            <h3>Check out the following videos for insane amounts of tropical island travel inspiration!</h3>
+
+            <iframe id="videos" width="400" height="315" src="https://www.youtube.com/embed/ox-IZ3Vz5Jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/O_9TgmIg1nA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </aside>
+        
+    </main>
+
+    <footer>
+        <a class="top" href="#top">Back to top!</a>
+        <p class="pfooter">Call us at 1-248-999-9999 to discuss your travel needs. All images without copyright, found free on <a href="https://unsplash.com/">www.unsplash.com.</a></p>
+    </footer>
+</body>
+</html>
